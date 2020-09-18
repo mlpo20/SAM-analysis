@@ -1,0 +1,13 @@
+%Workshop 1
+
+
+fname = "data/X031Y094.csv";
+data = csvread(fname);
+plot(data);
+
+%%
+fiel
+
+for i=1:length(files)
+    eval(['load ' files(i).name ' -ascii']);
+end
